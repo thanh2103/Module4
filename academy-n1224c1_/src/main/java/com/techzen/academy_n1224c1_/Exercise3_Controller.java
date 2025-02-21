@@ -47,11 +47,11 @@ public class Exercise3_Controller {
                     kq = a1 / b1;
                 }
                 break;
-                default:
-                    return ResponseEntity.badRequest().body("Vui lòng chọn phép tính");
+            default:
+                return ResponseEntity.badRequest().body("Vui lòng chọn phép tính");
         }
 
-return ResponseEntity.ok("Kết quả: "+kq);
+        return ResponseEntity.ok("Kết quả: " + kq);
     }
 
     private boolean isDouble(String str) {
