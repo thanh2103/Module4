@@ -17,9 +17,9 @@ import java.util.List;
 public class Employee_Controller {
     private List<Employee> employees = new ArrayList<Employee>(
             Arrays.asList(
-                    new Employee(1, "thanh", LocalDate.of(2003, 11, 22), Employee.Gender.Nữ, 14000000),
-                    new Employee(2, "linh", LocalDate.of(2003, 7, 4), Employee.Gender.Nữ, 15000000),
-                    new Employee(3, "Hai", LocalDate.of(2005, 9, 30), Employee.Gender.Nam, 15000000)
+                    new Employee(1, "thanh", LocalDate.of(2003, 11, 22), Employee.Gender.Female, 14000000),
+                    new Employee(2, "linh", LocalDate.of(2003, 7, 4), Employee.Gender.Female, 15000000),
+                    new Employee(3, "Hai", LocalDate.of(2005, 9, 30), Employee.Gender.Male, 15000000)
             )
 
     );

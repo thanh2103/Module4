@@ -24,7 +24,6 @@ public class Exercise2_Controller {
             if(key.equals(word)){
                 return ResponseEntity.ok(map.get(key));
             }
-
         }
         return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Không tim thấy");
     }

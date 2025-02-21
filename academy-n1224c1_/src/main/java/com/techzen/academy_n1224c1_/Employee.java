@@ -18,8 +18,7 @@ public class Employee {
     double luong;
 
     public enum Gender {
-        Nam,
-        Nữ,
-        Khác
+        Male,
+        Female
     }
 }
