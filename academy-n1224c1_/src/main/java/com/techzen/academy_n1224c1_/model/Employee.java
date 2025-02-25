@@ -1,4 +1,4 @@
-package com.techzen.academy_n1224c1_;
+package com.techzen.academy_n1224c1_.model;
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;
@@ -9,6 +9,7 @@ import java.time.LocalDate;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class Employee {
     int id;

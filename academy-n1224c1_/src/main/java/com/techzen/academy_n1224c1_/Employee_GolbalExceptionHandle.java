@@ -3,8 +3,8 @@ package com.techzen.academy_n1224c1_;
 import com.techzen.academy_n1224c1_.dto.ApiResponse;
 import com.techzen.academy_n1224c1_.exception.ApiException;
 import com.techzen.academy_n1224c1_.exception.Errorcode;
+import com.techzen.academy_n1224c1_.model.Employee;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.ErrorResponse;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 @ControllerAdvice
 public class Employee_GolbalExceptionHandle {

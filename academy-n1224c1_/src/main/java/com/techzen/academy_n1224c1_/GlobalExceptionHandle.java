@@ -3,8 +3,8 @@ package com.techzen.academy_n1224c1_;
 import com.techzen.academy_n1224c1_.dto.ApiResponse;
 import com.techzen.academy_n1224c1_.exception.ApiException;
 import com.techzen.academy_n1224c1_.exception.Errorcode;
+import com.techzen.academy_n1224c1_.model.Student;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 // lắng nghe các sự kiện

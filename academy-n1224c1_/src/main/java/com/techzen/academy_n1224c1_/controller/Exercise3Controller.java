@@ -1,4 +1,4 @@
-package com.techzen.academy_n1224c1_;
+package com.techzen.academy_n1224c1_.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class Exercise3_Controller {
+public class Exercise3Controller {
     @GetMapping("/cal")
     public ResponseEntity<String> cal(@RequestParam(defaultValue = "") String a
             , @RequestParam(defaultValue = "") String b
